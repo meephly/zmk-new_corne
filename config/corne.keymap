@@ -54,21 +54,21 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "ABOBA";
 
-            // --------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |                ↑    |  Y  |  U   |  I  |  O  |  P  | BKSP |      &kp UP_ARROW 
-            // | SHIFT |  A  |  S  |  D  |  F  |  G  |               ↓    |  H  |  J   |  K  |  L  |  ;  |  '   | 
-            // | CTRL |  Z  |  X  |  C  |  V  |  B  |                ←    |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |                →    | ENT | RSE  | ALT |
-            //                                                      enter
+            // ------------------------------------------------------------------------------------------------
+            // | TAB        | Q | W | E  |  R  | T  |                PLAY    |  Y  |  U   | I  | O | P | BKSP |
+            // | CTRL / ESC | A | S | D  |  F  | G  |                PAUSE   |  H  |  J   | K  | L | ; |  '   |
+            // | SHIFT      | Z | X | C  |  V  | B  | VOL_UP         PREV    |  N  |  M   | ,  | . | / |  ~   |
+            // ---------------------| L2 | SPC | L1 | VOL_D          NEXT    | ENT | BSPC | L3 |---------------
+            //                      -----------------                NONE    -------------------
 
             bindings = <
-&kp TAB    &kp Q  &kp W      &kp E     &kp R  &kp T          &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S      &kp D     &kp F  &kp G          &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                  &kp SPACE  &kp LGUI  &mo 1  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &kp RALT
-                                                             &kp ENTER
+&kp TAB       &kp Q      &kp W      &kp E        &kp R       &kp T   &kp C_PLAY    &kp Y      &kp U       &kp I        &kp O      &kp P         &kp LBKT
+&mt LCTRL ESC &mt LGUI A &mt LALT S &mt LSHIFT D &mt LCTRL F &kp G   &kp C_PAUSE   &kp H      &mt RCTRL J &mt RSHIFT K &mt RALT L &mt RGUI SEMI &kp SQT
+&kp LSHIFT    &kp Z      &kp X      &kp C        &kp V       &kp B   &kp C_PREV    &kp N      &kp M       &kp COMMA    &kp DOT    &kp FSLH      &kp GRAVE
+                         &kp SPACE  &mo 2        &kp SPACE   &mo 1   &kp C_NEXT    &kp ENTER  &kp BSPC    &lt 3
+                                                                     &none
             >;
 
             label = "QWERTY";
