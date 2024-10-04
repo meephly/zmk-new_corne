@@ -2,11 +2,16 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
+    - name: meephly
+      url-base: https://github.com/meephly/nice-view-mod 
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+    - name: nice-view-mod
+      remote: meephly
+      revision: main
   self:
     path: config
 
