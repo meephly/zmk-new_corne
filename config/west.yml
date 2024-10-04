@@ -3,7 +3,7 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
     - name: meephly
-      url-base: https://github.com/meephly/nice-view-mod 
+      url-base: https://github.com/meephly 
   projects:
     - name: zmk
       remote: urob
