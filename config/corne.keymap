@@ -41,6 +41,10 @@
             if-layers = <1 2>;
             then-layer = <4>;
         };
+        fo_layer {
+            if-layers = <2 1>;
+            then-layer = <4>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
