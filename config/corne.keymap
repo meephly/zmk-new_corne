@@ -131,7 +131,7 @@
 &trans  &trans &trans &trans &trans &trans    &trans  &kp AT    &kp EXCL  &kp LPAR &kp RPAR &kp ASTRK &trans
 &trans  &trans &trans &trans &trans &trans    &trans  &trans    &kp MINUS &kp LBKT &kp RBKT &kp trans &kp BSLH
 &trans  &trans &trans &trans &trans &trans    &trans  &kp HASH  &kp PLUS  &kp LBRC &kp RBRC &kp AMPS  &kp trans
-&trans                &trans &trans &trans    &trans  &kp trans &trans    &none
+&trans                &trans &trans &trans    &trans  &trans    &trans    &none
                                               &trans
             >;
 
