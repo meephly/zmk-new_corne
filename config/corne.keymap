@@ -90,11 +90,11 @@
 &trans &kp F5 &kp F6  &kp F7  &kp F8  &trans    &trans    &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans &kp PSCRN
 &trans &kp F9 &kp F10 &kp F11 &kp F12 &trans    &trans    &trans   &trans    &trans    &trans    &trans &trans
 &trans                &trans  &trans  &trans    &trans    &none    &trans    &trans
-                                             &trans
+                                                &trans
             >;
             label = "MOVE";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        }
+        };
 
 
         lower_layerrrr {
