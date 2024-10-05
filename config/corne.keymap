@@ -136,11 +136,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans &trans &trans &trans &trans    &trans  &kp AT    &kp EXCL  &kp LPAR &kp RPAR &kp ASTRK &trans
-&trans  &trans &trans &trans &trans &trans    &trans  &trans    &kp MINUS &kp LBKT &kp RBKT &trans    &kp BSLH
-&trans  &trans &trans &trans &trans &trans    &trans  &kp HASH  &kp PLUS  &kp LBRC &kp RBRC &kp AMPS  &trans
-&trans                &trans &trans &trans    &trans  &trans    &trans    &none
-                                              &trans
+&trans  &trans    &trans   &trans   &kp PERCENT &trans    &trans  &trans &trans    &kp LBKT &kp RBKT &trans &trans
+&trans  &kp CARET &kp HASH &kp STAR &kp DOLLAR  &kp MINUS &trans  &trans &kp EQUAL &kp LPAR &kp RPAR &trans &kp BSLH
+&trans  &trans    &kp AT   &kp AMPS &kp EXCL    &kp UNDER &trans  &trans &kp PLUS  &kp LBRC &kp RBRC &trans &trans
+&trans                     &trans   &trans      &trans    &trans  &trans &trans    &none
+                                                          &trans
             >;
 
             label = "SYMBOL";
